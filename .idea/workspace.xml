@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4862a41-d97f-42f4-b19f-0028df873f4b" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\out\production\JavaLearningExamples\com\samodeika\algorithms\BubbleSort.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\out\production\JavaLearningExamples\com\samodeika\algorithms\InsertionSort.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\src\com\samodeika\algorithms\BubbleSort.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\src\com\samodeika\algorithms\InsertionSort.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/samodeika/algorithms/Sorts.java" afterPath="$PROJECT_DIR$/src/com/samodeika/algorithms/Sorts.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaLearningExamples.iws" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="Sorts.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/samodeika/algorithms/Sorts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32622603">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.7100213">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -606,12 +603,12 @@
       <created>1447248836842</created>
       <option name="number" value="Default" />
       <updated>1447248836842</updated>
-      <workItem from="1447248848392" duration="5961000" />
+      <workItem from="1447248848392" duration="8440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5961000" />
+    <option name="totallyTimeSpent" value="8440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -643,6 +640,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -672,10 +677,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76759064">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/samodeika/algorithms/Sorts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32622603">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.7100213">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding />
         </state>
       </provider>
