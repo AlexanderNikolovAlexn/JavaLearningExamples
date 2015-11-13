@@ -10,17 +10,18 @@ public class Sorts {
         System.out.println("Original array!");
         System.out.println(Arrays.toString(arr));
 
-        bubbleSort(arr);
+        int[] arr1 = Arrays.copyOf(arr, arr.length);
+        bubbleSort(arr1);
         System.out.println("Bubble sort!");
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr1));
 
         int[] arr2 = Arrays.copyOf(arr, arr.length);
         insertionSort(arr2);
-        System.out.println("Bubble sort!");
+        System.out.println("Insertion sort!");
         System.out.println(Arrays.toString(arr2));
 
         int[] arr3 = Arrays.copyOf(arr, arr.length);
-        insertionSort(arr3);
+        selectionSort(arr3);
         System.out.println("Selection sort!");
         System.out.println(Arrays.toString(arr3));
 
@@ -28,6 +29,11 @@ public class Sorts {
         mergeSort(arr4);
         System.out.println("Merge sort!");
         System.out.println(Arrays.toString(arr4));
+
+        int[] arr5 = Arrays.copyOf(arr, arr.length);
+        quickSort(arr5, 0, arr5.length - 1);
+        System.out.println("Quick sort!");
+        System.out.println(Arrays.toString(arr5));
     }
 
     public static void bubbleSort(int[] arr) {
@@ -111,11 +117,42 @@ public class Sorts {
         System.arraycopy(second, iSecond, result, j, second.length - iSecond);
     }
 
+    public static void quickSort(int arr[], int left, int right) {
+        int index = partition(arr, left, right);
+        if (left < index - 1)
+            quickSort(arr, left, index - 1);
+        if (index < right)
+            quickSort(arr, index, right);
+    }
+
+    private static int partition(int arr[], int left, int right)
+    {
+        int i = left, j = right;
+        int tmp;
+        int pivot = arr[(left + right) / 2];
+
+        while (i <= j) {
+            while (arr[i] < pivot) {
+                i++;
+            }
+            while (arr[j] > pivot) {
+                j--;
+            }
+            if (i <= j) {
+                // we can use swap here
+                swap(arr, i, j);
+                i++;
+                j--;
+            }
+        };
+
+        return i;
+    }
+
     private static void swap(int[] arr, int left, int right) {
         int tmp = arr[left];
         arr[left] = arr[right];
         arr[right] = tmp;
     }
 
-    ;
 }
