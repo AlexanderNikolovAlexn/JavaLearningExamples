@@ -51,12 +51,35 @@ public class CaesarCipher {
         return result;
     }
 
+    public void eyeBallDecrypt(String text) {
+        for (int i = 0; i < alphabet.length(); i++) {
+            System.out.println(i + " " + encrypt(text, i));
+        }
+    }
+
+    public void textFingerPrint(String text) {
+        int[] counters = new int[alphabet.length() - 1];
+        for (int i = 0; i < text.length(); i++) {
+            char ch = text.charAt(i);
+            int index = alphabet.indexOf(Character.toUpperCase(ch));
+            if(index != -1) {
+                counters[index] +=1;
+            }
+        }
+
+        for (int i = 0; i < counters.length; i++) {
+            System.out.println(alphabet.charAt(i) + "\t" + counters[i]);
+        }
+    }
+
     public static void main(String[] args) {
         CaesarCipher cs = new CaesarCipher();
         String text = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD!";
         int key = 15;
         System.out.println(cs.encrypt(text, key));
+        //cs.eyeBallDecrypt(cs.encrypt(text, key));
         System.out.println(cs.encryptTwoKeys(text, 8, 21));
+        cs.textFingerPrint(text);
     }
 
 }
