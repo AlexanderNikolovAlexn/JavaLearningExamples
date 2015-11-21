@@ -21,7 +21,7 @@ public class CaesarCipher {
 
     public String decrypt(String text) {
         int[] counts = getLetterCount(text);
-        print(counts);
+        // print(counts);
         int maxDen = maxIndex(counts);
         int dkey = maxDen - 4; //4 - letter 'e'
         if(maxDen < 4) {
@@ -80,6 +80,42 @@ public class CaesarCipher {
         return result.toString();
     }
 
+    public String decryptTwoKeys(String text) {
+        String[] texts = getTwoTexts(text);
+        texts[0] = decrypt(texts[0]);
+        texts[1] = decrypt(texts[1]);
+        String result = getOriginalText(texts);
+        return result;
+    }
+
+    private String getOriginalText(String[] texts) {
+        String result = "";
+        for (int i = 0; i < Math.max(texts[0].length(), texts[1].length()); i++) {
+            if (texts[0].length() > i) {
+                result += texts[0].charAt(i);
+            }
+            if (texts[1].length() > i) {
+                result += texts[1].charAt(i);
+            }
+        }
+        return result;
+    }
+    
+    private String[] getTwoTexts(String text) {
+        String res1 = "";
+        String res2 = "";
+        for (int i = 0; i < text.length(); i++) {
+            if(i%2==0) {
+                res1 += text.charAt(i);
+            }
+            else {
+                res2 += text.charAt(i);
+            }
+        }
+        String[] result = {res1, res2};
+        return result;
+    }
+
     private char sameCaseCharacter(char originalChar, char returnedChar) {
         char result;
         if(originalChar == Character.toLowerCase(originalChar)) {
@@ -115,14 +151,14 @@ public class CaesarCipher {
     public static void main(String[] args) {
         CaesarCipher cs = new CaesarCipher();
         String text = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD! me, me, me, me";
+        String text2 = "Just a test string with lots of eeeeeeeeeeeeeeeees";
         int key = 15;
-        System.out.println(cs.encrypt(text, key));
+        // System.out.println(cs.encrypt(text, key));
         // Brute force algorith
         //cs.eyeBallDecrypt(cs.encrypt(text, key));
-        System.out.println(cs.encryptTwoKeys(text, 8, 21));
+        System.out.println(cs.encryptTwoKeys(text2, 23, 2));
         //cs.textFingerPrint(text);
-
-        System.out.println(cs.decrypt(text));
+        System.out.println(cs.decryptTwoKeys(text2));
 
     }
 
