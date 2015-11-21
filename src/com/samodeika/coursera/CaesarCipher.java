@@ -19,6 +19,46 @@ public class CaesarCipher {
         return result.toString();
     }
 
+    public String decrypt(String text) {
+        int[] counts = getLetterCount(text);
+        print(counts);
+        int maxDen = maxIndex(counts);
+        int dkey = maxDen - 4; //4 - letter 'e'
+        if(maxDen < 4) {
+            dkey = 26 - (4 - maxDen);
+        }
+        return encrypt(text, 26 - dkey);
+    }
+
+    private int maxIndex(int[] counts) {
+        int maxNumber = 0;
+        int maxIndex = 0;
+        for (int i = 0; i < counts.length; i++) {
+            if(counts[i] > maxNumber) {
+                maxNumber = counts[i];
+                maxIndex = i;
+            }
+        }
+        return maxIndex;
+    }
+
+    private int[] getLetterCount(String text) {
+        int[] result = new int[alphabet.length()];
+        for (int i = 0; i < text.length(); i++) {
+            int index = alphabet.indexOf(Character.toUpperCase(text.charAt(i)));
+            if(index != -1) {
+                result[index] += 1;
+            }
+        }
+        return result;
+    }
+
+    private void print(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Index: " + i + "; Value: " + array[i]);
+        }
+    }
+
     public String encryptTwoKeys(String text, int key1, int key2) {
         String shiftedAlphabet1 = alphabet.substring(key1) + alphabet.substring(0, key1);
         String shiftedAlphabet2 = alphabet.substring(key2) + alphabet.substring(0, key2);
@@ -74,12 +114,16 @@ public class CaesarCipher {
 
     public static void main(String[] args) {
         CaesarCipher cs = new CaesarCipher();
-        String text = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD!";
+        String text = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD! me, me, me, me";
         int key = 15;
         System.out.println(cs.encrypt(text, key));
+        // Brute force algorith
         //cs.eyeBallDecrypt(cs.encrypt(text, key));
         System.out.println(cs.encryptTwoKeys(text, 8, 21));
-        cs.textFingerPrint(text);
+        //cs.textFingerPrint(text);
+
+        System.out.println(cs.decrypt(text));
+
     }
 
 }
