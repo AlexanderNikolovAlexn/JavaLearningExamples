@@ -27,5 +27,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="org.junit:com.springsource.org.junit:4.11.0" level="project" />
   </component>
 </module>
