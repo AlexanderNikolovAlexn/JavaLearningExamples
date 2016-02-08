@@ -1,24 +1,22 @@
 package com.samodeika.temp;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class TestClass {
 
-    public static boolean hasLetter(String word, char letter)
-    {
-        for (int i = 0; i < word.length(); i++)
-        {
-            if (word.charAt(i) == letter)
-            {
-                return true;
-            }
-        }
-        return false;
+    public static void main(String[] args) {
+        ArrayList<Integer> a = new ArrayList<>();
+        a.add(1);
+        a.add(2);
+        a.add(3);
+        System.out.println(a);
+        method2(a);
+        System.out.println(a);
     }
 
-    public static void main(String[] args) {
-        String text = "Hurray!!#! It's Friday! finally...";
-        String[] words = text.split("!+");
-        System.out.println(Arrays.toString(words));
+    public static void method2(ArrayList list) {
+        list = new ArrayList();
+        list.add(33);
+        System.out.println("Inside: " + list);
     }
 }
