@@ -1,11 +1,14 @@
 package com.samodeika.annotations;
 
+@PrintingDevice(defaultPrintMethod = "print", defaultNumberOfCopies = 5)
 public class Printer {
 
     private String text;
+    private int copies;
 
-    public Printer(String text) {
+    public Printer(String text, int copies) {
         this.text = text;
+        this.copies = copies;
     }
 
     public Printer() {
@@ -17,7 +20,15 @@ public class Printer {
     }
 
     public void print() {
-        System.out.println("Printing " + this.text);
+        for (int i = 0; i < this.copies; i++) {
+            System.out.println("Printing copy " + this.copies + " " + this.text);
+        }
+    }
+
+    public void print(int copies) {
+        for (int i = 0; i < copies; i++) {
+            System.out.println("Printing copy " + copies + " " + this.text);
+        }
     }
 
     @Override

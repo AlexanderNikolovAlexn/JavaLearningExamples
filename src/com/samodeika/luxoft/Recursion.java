@@ -23,4 +23,11 @@ public class Recursion {
         if(existingValues[num] > 0) return existingValues[num];
         return existingValues[num] = fib(num - 1, existingValues) + fib(num - 2, existingValues);
     }
+
+    //Optimized variant
+    public static int biggestMutualDividor(int num1, int num2) {
+        if(num2 == 0) return num1;
+        return biggestMutualDividor(num2, num1 % num2);
+    }
+
 }
