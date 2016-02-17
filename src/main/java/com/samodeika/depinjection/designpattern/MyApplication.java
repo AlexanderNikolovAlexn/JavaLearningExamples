@@ -1,4 +1,4 @@
-package com.samodeika.depinjection;
+package com.samodeika.depinjection.designpattern;
 
 public class MyApplication {
 
