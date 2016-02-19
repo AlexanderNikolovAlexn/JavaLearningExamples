@@ -14,6 +14,11 @@ public class TestMain {
                 return null;
             }
         };
+
+
+        MyImmutable.Builder b = MyImmutable.getBuilder(1);
+        b.withName("Pesho").withCountry("Bulgaria").build();
+        
     }
 
 }
