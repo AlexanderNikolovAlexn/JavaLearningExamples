@@ -18,7 +18,7 @@ public class TestMain {
 
         MyImmutable.Builder b = MyImmutable.getBuilder(1);
         b.withName("Pesho").withCountry("Bulgaria").build();
-        
+
     }
 
 }
