@@ -26,7 +26,7 @@ public class App {
         try {
             System.out.println("Started transaction!");
             tx = session.beginTransaction();
-            Integer empID1 = dao.addPerson(session, "Zara Ali", 26);
+            Integer empID1 = dao.addPerson(session, "Alex Nikolov", 28);
             tx.commit();
             System.out.println("Committed! Received id: " + empID1);
         } catch (HibernateException e) {

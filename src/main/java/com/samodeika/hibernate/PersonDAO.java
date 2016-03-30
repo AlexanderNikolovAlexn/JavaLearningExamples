@@ -6,10 +6,9 @@ public class PersonDAO {
 
     /* Method to CREATE an Person in the database */
     public Integer addPerson(Session session, String name, int age) {
-        Integer PersonID = null;
-        Person Person = new Person(name, age);
-        PersonID = (Integer) session.save(Person);
-        return PersonID;
+        Person person = new Person(name, age);
+        session.save(person);
+        return person.getId();
     }
 
 }
