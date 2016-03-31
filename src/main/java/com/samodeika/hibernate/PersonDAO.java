@@ -1,14 +1,14 @@
 package com.samodeika.hibernate;
 
-import org.hibernate.Session;
+import java.util.List;
 
-public class PersonDAO {
+public interface PersonDAO {
 
-    /* Method to CREATE an Person in the database */
-    public Integer addPerson(Session session, String name, int age) {
-        Person person = new Person(name, age);
-        session.save(person);
-        return person.getId();
-    }
+    public List<Person> getPersons();
+    public Person getPerson(int id);
+    public void update(Person person);
+    public void remove(Person person);
+    public boolean insert(Person person);
+    public void getPersonsAsXLS();
 
 }
