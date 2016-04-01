@@ -25,8 +25,8 @@
         <module name="JavaLearningExamples" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JavaLearningExamples" target="1.8" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="JavaLearningExamples" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

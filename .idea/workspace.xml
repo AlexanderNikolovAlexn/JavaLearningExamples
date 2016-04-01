@@ -2,8 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4862a41-d97f-42f4-b19f-0028df873f4b" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\src\main\java\com\samodeika\hibernate\PersonDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/PersonDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/App.java" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\JUnitTest\MyLinkedListTester.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\algorithms\Fibonachi.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\algorithms\NumSystems.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\algorithms\Sorts.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\algorithms\TestData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\annotations\HelloAnnotation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\annotations\PrintInt.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\annotations\Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\annotations\PrintingDevice.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\datastructures\LLNode.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\datastructures\MyLinkedList.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\datastructures\SLLNode.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\datastructures\TestStructures.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\Consumer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\EmailService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\EmailServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\EmailServiceInjector.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\MessageService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\MessageServiceInjector.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\MyApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\MyDIApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\MyLegacyTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\MyMessageDITest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\SMSServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\designpattern\SMSServiceInjector.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\guice\EmailService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\guice\FastEmailService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\guice\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\guice\MessageService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\guice\Person.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\guice\ProjectModule.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\guice\SmsService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\depinjection\guice\TweetService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\hibernate\App.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\hibernate\HibernateSession.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\hibernate\Person.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\hibernate\PersonDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\hibernate\PersonDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\jdbcsample\App.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\jdbcsample\Person.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\jdbcsample\PersonDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\jdbcsample\PersonDAOImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\DataStructures.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\Day.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\MyImmutable$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\MyImmutable$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\MyImmutable.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\Pair.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\PerfectNumbers.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\Planet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\Recursion.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\Singleton.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\TestEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\TestException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\TestMain$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\luxoft\TestMain.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\temp\Test2DArray.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\temp\TestClass.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\threads\MyRunnableImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\threads\MyThread.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\threads\TestClass.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\GIT Projects\Java\JavaLearningExamples\target\classes\com\samodeika\threads\Worker.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaLearningExamples.iml" afterPath="$PROJECT_DIR$/JavaLearningExamples.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/samodeika/datastructures/TestStructures.java" afterPath="$PROJECT_DIR$/src/main/java/com/samodeika/datastructures/TestStructures.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaLearningExamples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,26 +95,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/App.java">
+      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/common/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11792453">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JdbcBusinessProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/common/jdbc/JdbcBusinessProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1459523047649" expanded="true" signature="1147:1217" placeholder="insert into ..." />
+                <marker date="1459523047649" expanded="true" signature="1838:1855" placeholder="select * fro..dog..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/PersonDAOImpl.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/common/main/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.6391509">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,8 +135,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,16 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/samodeika/depinjection/MyLegacyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/samodeika/luxoft/Planet.java" />
-        <option value="$PROJECT_DIR$/src/com/samodeika/luxoft/Day.java" />
-        <option value="$PROJECT_DIR$/src/com/samodeika/luxoft/TestEnum.java" />
-        <option value="$PROJECT_DIR$/src/com/samodeika/luxoft/MessageService.java" />
-        <option value="$PROJECT_DIR$/src/com/samodeika/depinjection/MessageService.java" />
-        <option value="$PROJECT_DIR$/src/com/samodeika/depinjection/EmailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/samodeika/depinjection/SMSServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/samodeika/depinjection/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/com/samodeika/depinjection/MyDIApplication.java" />
         <option value="$PROJECT_DIR$/src/com/samodeika/depinjection/MessageServiceInjector.java" />
         <option value="$PROJECT_DIR$/src/com/samodeika/depinjection/SMSServiceInjector.java" />
         <option value="$PROJECT_DIR$/src/com/samodeika/depinjection/MyMessageDITest.java" />
@@ -117,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/samodeika/jdbcsample/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/samodeika/jdbcsample/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/samodeika/jdbcsample/PersonDAOImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/Person.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/ManagePerson.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/hibernate.cfg.xml" />
@@ -128,6 +191,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/HibernateSession.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/PersonDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/samodeika/springjpa/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/samodeika/springjpa/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/common/dao/DAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/samodeika/datastructures/TestStructures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/samodeika/springjpa/PersonDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/common/Dog.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/common/xls/XLSProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/common/main/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/common/jpa/JpaBusinessProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/homework/common/jdbc/JdbcBusinessProcessor.java" />
       </list>
     </option>
   </component>
@@ -202,6 +276,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearningExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -251,36 +336,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLearningExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLearningExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -323,6 +378,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -352,11 +411,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samodeika" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jdbcsample" />
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,27 +441,122 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="samodeika" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearningExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearningExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearningExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearningExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearningExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLearningExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaLearningExamples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -419,7 +573,7 @@
     <property name="recentsLimit" value="5" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -432,6 +586,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -443,30 +598,11 @@
       <recent name="C:\GIT Projects\Java\JavaLearningExamples\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.samodeika.springjpa" />
       <recent name="com.samodeika.hibernate" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
-    <configuration default="false" name="TestException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.samodeika.luxoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.samodeika.luxoft.TestException" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaLearningExamples" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.App (2)">
     <configuration default="false" name="MyLinkedListTester.testAddEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -841,21 +977,40 @@
       </ConfigurationWrapper>
       <method />
     </configuration>
+    <configuration default="false" name="App (2)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.homework.common.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.homework.common.main.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaLearningExamples" />
+      <envs />
+      <method />
+    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.57" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestException" />
+      <item index="1" class="java.lang.String" itemvalue="Application.App (2)" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testAddEnd" />
       <item index="3" class="java.lang.String" itemvalue="Application.Worker" />
       <item index="4" class="java.lang.String" itemvalue="Application.App" />
       <item index="5" class="java.lang.String" itemvalue="Application.App (1)" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.App (1)" />
         <item index="1" class="java.lang.String" itemvalue="Application.App" />
         <item index="2" class="java.lang.String" itemvalue="Application.Worker" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.MyLinkedListTester.testAddEnd" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestException" />
       </list>
     </recent_temporary>
   </component>
@@ -895,7 +1050,8 @@
       <workItem from="1457614941204" duration="72000" />
       <workItem from="1458920334598" duration="1130000" />
       <workItem from="1459152095074" duration="3055000" />
-      <workItem from="1459341138434" duration="6709000" />
+      <workItem from="1459341138434" duration="12875000" />
+      <workItem from="1459515665352" duration="3129000" />
     </task>
     <task id="LOCAL-00001" summary="enum lecture with Day example">
       <created>1455284385978</created>
@@ -907,7 +1063,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104393000" />
+    <option name="totallyTimeSpent" value="113688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -917,17 +1073,17 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3900135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3900135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -939,6 +1095,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -981,69 +1138,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/MyLegacyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/SMSServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/MyDIApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2806604">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/SMSServiceInjector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/MessageServiceInjector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16037735">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16037735">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/EmailServiceInjector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24056605">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16037735">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08018868">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/depinjection/designpattern/EmailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08018868">
@@ -1104,13 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5074627">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/datastructures/TestStructures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21748401">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1216,18 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14165498">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#217#218#0" expanded="false" />
-            <element signature="e#249#250#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/threads/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6437588">
           <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,7 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +1334,6 @@
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="false" />
-            <marker date="1459167908939" expanded="true" signature="-1:-1" placeholder="select * fro..tmp_table..." />
           </folding>
         </state>
       </provider>
@@ -1270,15 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35516372">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4009434">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35516372">
           <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,7 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34256926">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,15 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34256926">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4009434">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,27 +1394,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24056605">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/PersonDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11792453">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.43867925">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/PersonDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3207547">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/hibernate/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4009434">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/springjpa/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5613208">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/springjpa/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/common/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/datastructures/TestStructures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25373134">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/common/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/common/xls/XLSProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2806604">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/samodeika/threads/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3326226">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7228145">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/common/jpa/JpaBusinessProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7100213">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/common/jdbc/JdbcBusinessProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
+          <folding>
+            <marker date="1459523047649" expanded="true" signature="1147:1217" placeholder="insert into ..." />
+            <marker date="1459523047649" expanded="true" signature="1838:1855" placeholder="select * fro..dog..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/homework/common/main/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6391509">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
