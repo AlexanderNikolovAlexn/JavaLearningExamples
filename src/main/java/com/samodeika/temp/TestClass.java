@@ -1,18 +1,21 @@
 package com.samodeika.temp;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TestClass {
 
     public static void main(String[] args) {
 
-        StringBuilder sb = new StringBuilder();
-        sb.append("hello");
-        foo(sb);
-        System.out.println(sb.toString());
+        List<Integer> list = new ArrayList<>();
+        list.add(21);
+        list.add(11);
+        list.add(2);
+        list.add(30);
+        list.add(13);
+        list.removeIf(e -> e%2 !=0);
 
-    }
+        System.out.println(list);
 
-    static void foo(StringBuilder x) {
-        x = new StringBuilder();
-        x.append("world");
     }
 }
