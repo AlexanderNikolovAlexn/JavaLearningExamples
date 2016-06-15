@@ -19,11 +19,14 @@ public class TestHashMap {
         map.put(p2, 2);
         map.put(p3, 3);
 
+        p2.setName("Georgi Chochev");
+
+        map.put(p2, 22);
         map.put(null, 4);
 
         for (Person key: map.keySet()) {
             //System.out.println("Key name" + key.getName() + ";Value = " + map.get(key));
-            System.out.println("Value = " + map.get(key));
+            System.out.println("Key = " + key + ";Value = " + map.get(key));
         }
 
     }
