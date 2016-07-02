@@ -8,6 +8,8 @@ public class TestMain {
             System.out.println(day + ": " + day.getValue());
         }
 
+
+        System.out.println(PageEnum.DASHBOARD.name());
     }
 
 }
