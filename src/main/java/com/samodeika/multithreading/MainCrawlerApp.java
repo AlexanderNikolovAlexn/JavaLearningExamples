@@ -5,48 +5,36 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 public class MainCrawlerApp {
 
     public static void main(String[] args) {
-        String page = "https://softuni.bg";
-        parsePage(page);
+        String page = "https://blog.docker.com/2016/05/docker-net-core-clr-rc2/";
+        Crawler crawler = new Crawler(page);
+
+        System.out.println("Program started!");
+        System.out.println("----------------------------------------");
+
+        long startTime = System.currentTimeMillis();
+
+        crawler.start();
+        crawler.stop();
+
+        long stopTime = System.currentTimeMillis();
+
+        crawler.printFoundPages();
+
+        System.out.println("----------------------------------------");
+        System.out.println("Program ended!");
+        System.out.println("Total time: " + getTotalTime(startTime, stopTime) + " s");
     }
 
-    private static void parsePage(String page)
-    {
-//        if(db.size() >= Crawler.MAX)
-//        {
-//            return;
-//        }
-
-        try
-        {
-            Document doc = Jsoup.connect(page).get();
-            doc = Jsoup.parse(doc.toString());
-            String pageText = doc.html();
-
-            String newPage;
-            Elements links = doc.select("a[href]");
-            for(int i = 0; i < links.size(); i++)
-            {
-                newPage = links.get(i).attr("href");
-                if(!newPage.contains("http") && newPage.startsWith("/") && newPage.length() > 1) {
-                    newPage = page + newPage;
-                }
-                if (newPage != null && !newPage.isEmpty() && newPage.startsWith("http")) {
-                    System.out.println(newPage);
-                }
-            }
-        }
-        catch(IllegalArgumentException e)
-        {
-            e.printStackTrace();
-        }
-        catch(IOException e)
-        {
-            e.printStackTrace();
-        }
+    private static String getTotalTime(double startTime, double endTime) {
+        DecimalFormat df = new DecimalFormat("#.##");
+        double f = ((endTime - startTime) / 1000);
+        return df.format(f);
     }
 
 }
