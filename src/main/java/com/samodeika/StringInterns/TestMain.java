@@ -1,4 +1,4 @@
-package com.samodeika.StringInterns;
+package com.samodeika.stringinterns;
 
 public class TestMain {
 
