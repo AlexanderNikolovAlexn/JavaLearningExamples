@@ -7,7 +7,10 @@ public class AppMain {
 
     public static void main(String[] args) {
 
-        System.out.println(binToDec("0011"));
+        String binString = "0011";
+        System.out.println(binToDec(binString));
+
+        System.out.println(Long.parseLong(binString, 2));
 
     }
 
